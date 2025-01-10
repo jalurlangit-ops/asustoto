@@ -34,7 +34,7 @@ function rank() {
 	"author": {
             "@type": "Person",
             "name": "Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini",
-            "reviewBody": "Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!"
+            "reviewBody": "Asustoto hadir sebagai situs slot gacor 2025 yang menawarkan pengalaman bermain slot online terbaik untuk para penggemar judi online. Dengan berbagai pilihan permainan dari provider ternama, Asustoto menjamin permainan yang adil dan berkualitas tinggi"
           }
         },
     "offers": {
@@ -47,6 +47,22 @@ function rank() {
     };
   }
 
+function histats() {
+    return {
+      __html: `
+        var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4921038,4,5,172,25,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        hs.src = ('//s10.histats.com/js15_as.js');
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+      `,
+    };
+  };
+
 export default function RootLayout({
   children
 }: Readonly<{
@@ -55,7 +71,6 @@ export default function RootLayout({
   return (
     <html lang="id" data-browser="chrome">
       <head>
-        <meta charSet="utf-8" />
         <title>Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini</title>
         <meta name="description" content="Asustoto hadir sebagai situs slot gacor 2025 yang menawarkan pengalaman bermain slot online terbaik untuk para penggemar judi online. Dengan berbagai pilihan permainan dari provider ternama, Asustoto menjamin permainan yang adil dan berkualitas tinggi" />
         <meta name="keywords" content="Asustoto, Situs Slot Gacor 2025, Link Gacor Hari Ini, Deposit Via E Wallet, Slot Tergacor Hari Ini, Daftar Slot Online, Slot Online Terpercaya, Link Slot Terpercaya, Slot Depo 10K, situs Slot Gacor 2025 Terpercaya" />
@@ -80,7 +95,7 @@ export default function RootLayout({
         <meta name="distribution" content="global" />
         <meta name="format-detection" content="telephone=no, address=no, email=no" />
         <meta property="og:title" content="Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini" />
-        <meta property="og:description" content="Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
+        <meta property="og:description" content="Asustoto hadir sebagai situs slot gacor 2025 yang menawarkan pengalaman bermain slot online terbaik untuk para penggemar judi online. Dengan berbagai pilihan permainan dari provider ternama, Asustoto menjamin permainan yang adil dan berkualitas tinggi" />
         <meta property="og:url" content={nameDomain} />
         <meta property="og:site_name" content="asustoto" />
         <meta property="og:locale" content="id_ID" />
@@ -91,12 +106,12 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="asustoto" />
         <meta name="twitter:title" content="Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini" />
-        <meta name="twitter:description" content="Asustoto : Situs Slot Gacor 2025 Dan Link Gacor Hari Ini, menawarkan pengalaman bermain slot gacor terbaik dengan keamanan terjamin. Nikmati pasaran Toto hongkong lotto lengkap dengan peluang menang tinggi, serta transaksi yang cepat dan aman. Menangkan hadiah besar di situs terpercaya ini!" />
+        <meta name="twitter:description" content="Asustoto hadir sebagai situs slot gacor 2025 yang menawarkan pengalaman bermain slot online terbaik untuk para penggemar judi online. Dengan berbagai pilihan permainan dari provider ternama, Asustoto menjamin permainan yang adil dan berkualitas tinggi" />
         <meta name="twitter:image" content={nameDomain} />
         <link rel="icon" href="/favicon.ico?favicon.088e6c96.ico" sizes="256x256" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="next-size-adjust" content="" />
         <script type="application/ld+json" dangerouslySetInnerHTML={rank()} key="product-jsonld" />
+        <script dangerouslySetInnerHTML={histats()} type="text/javascript" />
       </head>
       <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
